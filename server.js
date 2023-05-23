@@ -9,6 +9,9 @@ const http = require('http').createServer(app);
 // Importando o módulo 'socket.io' e passando o servidor 'http' como parâmetro, atribuindo-o à constante 'io'
 const io = require('socket.io')(http);
 
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/img', express.static(path.join(__dirname, 'img')));
+
 // Rota para a página inicial
 app.get('/', (request, response) => {
   response.sendFile(path.join(__dirname, "index.html"))
@@ -25,9 +28,6 @@ app.get('/style.css', (request, response) => {
 app.get('/chat.css', (request, response) => {
   response.sendFile(path.join(__dirname, "chat.css"))
 });
-
-app.use(express.static(path.join(__dirname, 'public')));
-app.use('/img', express.static(path.join(__dirname, 'img')));
 
 // Evento para quando o cliente se conecta ao servidor via Socket.io
 io.on('connection', (socket) => {
