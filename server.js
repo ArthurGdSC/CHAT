@@ -26,6 +26,7 @@ app.get('/chat.css', (request, response) => {
   response.sendFile(path.join(__dirname, "chat.css"))
 });
 
+app.use(express.static(path.join(__dirname, 'public')));
 app.use('/img', express.static(path.join(__dirname, 'img')));
 
 // Evento para quando o cliente se conecta ao servidor via Socket.io
