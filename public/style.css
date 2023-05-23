@@ -1,0 +1,373 @@
+/* Estilos para o header */
+body {
+    background-image: linear-gradient(to right, rgba(161, 66, 66, 0.863), #375d97f5);
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+
+#espelho {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+}
+
+#espelho2 {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+    margin-top: 50%;
+}
+
+#espelho3{
+    position: absolute;
+ width: 800px;
+margin-top: 50px;
+ margin-left: 45%;
+}
+
+#espelho4{
+    position: absolute;
+ width: 800px;
+margin-top: 50px;
+ margin-left: -10%;
+}
+
+
+
+
+header {
+    background-image: url(img/brick-row.png);
+    background-size: 452px;
+    box-shadow: #171a2c 0px 10px 30px 10px;
+    color: white;
+    padding: 57px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para o footer */
+footer {
+    background: linear-gradient(rgb(176, 11, 11), rgb(3, 17, 39));
+    box-shadow: #000000 0px 10px 20px 20px;
+    color: #333;
+    padding: 35px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-image: url(img/bloco-super-mario.png);
+    background-size: 13%;
+}
+
+
+
+
+
+
+@media (min-width: 800px) {
+    #imagensM #marioCelular {
+        display: none;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 400px) {
+
+    header,
+    footer {
+        padding: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#titulo {
+    position: absolute;
+    margin-top: 10%;
+    width: 900px;
+    margin-left: 26%;
+}
+
+#logarTitulo {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 45.5%;
+    width: 250px;
+}
+
+#pipe1 {
+    transform: rotate(90deg);
+    /* Equal to rotateZ(45deg) */
+    width: 140px;
+    position: absolute;
+    margin-left: 7%;
+}
+
+#pipe2 {
+    transform: rotate(270deg);
+    /* Equal to rotateZ(45deg) */
+    width: 140px;
+    margin-left: 84.2%;
+    position: absolute;
+
+}
+
+
+
+#marioPulandoGumba {
+    position: absolute;
+    width: 260px;
+    margin-top: 18.5%;
+    margin-left: 15%;
+}
+
+
+#Goomba {
+    position: absolute;
+    width: 170px;
+    margin-top: 33%;
+    margin-left: 33%;
+}
+
+#Goomba2 {
+    position: absolute;
+    width: 155px;
+    margin-top: 36%;
+    margin-left: 75%;
+
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#Goomba3 {
+    position: absolute;
+    width: 155px;
+    margin-top: 36%;
+    margin-left: 65%;
+
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#Goomba4 {
+    position: absolute;
+    width: 155px;
+    margin-top: 36%;
+    margin-left: 81%;
+
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#Goomba5 {
+    position: absolute;
+    width: 155px;
+    margin-top: 36%;
+    margin-left: 90%;
+
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#Goomba6 {
+    position: absolute;
+    width: 155px;
+    margin-top: 36%;
+    margin-left: 57%;
+
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#tartarugaVoando{
+    position: absolute;
+    width: 340px;
+    margin-top: 19.5%;
+    margin-left: 66%;
+
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+#plantaFogo {
+    position: absolute;
+    width: 300px;
+    margin-top: 28%;
+    margin-left: -2%;
+
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#bumerangue {
+    position: absolute;
+    width: 530px;
+    margin-top: 28.5%;
+    margin-left: 70%;
+
+}
+
+.sec {
+    height: 850px;
+    border: none;
+    width: 97%;
+
+}
+
+#caixaMensagens {
+  
+    margin-top: 15%;
+
+}
+
+#nome {
+    width:1501px; 
+    height: 50px;
+    margin-left: 190px;
+    border: solid black;
+    position: absolute;
+    margin-top: 48px;
+     background: #333;
+    font-size: 20px;
+    padding-left: 20px;
+    color: rgb(150, 150, 150);
+}
+
+#mensagem {
+    width: 500px;
+    height: 46px;
+    border-radius: 50px;
+    border: 0;
+    position: absolute;
+    margin-left: 35%;
+    background: #333;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 35.9%;
+    color: rgb(150, 150, 150);
+}
+
+#button {
+    margin-left: 64%;
+width: 60px;
+height: 60px;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.5s ease;
+    margin-top: 34.5%;
+    border-radius: 50px;
+    background: #a9a9a9;
+}
+
+
+#aviaoEnviar{
+    width: 30px;
+}
+
+#mensagens {
+    font-size: 20px;
+    list-style: none;
+    color: #d8d8d8;
+}
+
+
+#conversa {
+    border: solid black;
+    background: #333;
+    height: 570px; 
+    overflow-y: scroll; 
+    
+    position: absolute; 
+margin-left: 10%;
+    width: 80%; 
+    margin-top:100px;
+  }
+
+#logar{
+    position: absolute;
+width: 12%;
+margin-top: 30%;
+margin-left: 46%;
+}
+
+#entrar{
+    position: absolute;
+    width: 300px;
+    margin-top: 23%;
+    margin-left: 43%;
+
+    transition: 0.5s ease;
+}
+
+#entrar:hover {
+    transform: scale(1.1);
+}
+
+#tartarugaVerelhaVoando{
+    position: absolute;
+    width: 215px;
+    margin-top: 15%;
+    margin-left: 61.5%;
+
+
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+.enviado{
+    margin-left: 55%;
+}
+
+.recebido{
+
+    margin-left: 35%;
+}
