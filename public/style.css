@@ -3,6 +3,9 @@ body {
     background-image: linear-gradient(to right, rgba(161, 66, 66, 0.863), #375d97f5);
     background-attachment: fixed;
     background-size: cover;
+
+
+    
   
 }
 
@@ -141,7 +144,7 @@ footer {
 #marioPulandoGumba {
     position: absolute;
     width: 260px;
-    margin-top: 18.5%;
+    margin-top: 19%;
     margin-left: 15%;
 }
 
@@ -149,14 +152,14 @@ footer {
 #Goomba {
     position: absolute;
     width: 170px;
-    margin-top: 33%;
+    margin-top: 34%;
     margin-left: 33%;
 }
 
 #Goomba2 {
     position: absolute;
     width: 155px;
-    margin-top: 36%;
+    margin-top: 37%;
     margin-left: 75%;
 
 
@@ -169,7 +172,7 @@ footer {
 #Goomba3 {
     position: absolute;
     width: 155px;
-    margin-top: 36%;
+    margin-top: 37%;
     margin-left: 65%;
 
 
@@ -182,7 +185,7 @@ footer {
 #Goomba4 {
     position: absolute;
     width: 155px;
-    margin-top: 36%;
+    margin-top: 37%;
     margin-left: 81%;
 
 
@@ -195,7 +198,7 @@ footer {
 #Goomba5 {
     position: absolute;
     width: 155px;
-    margin-top: 36%;
+    margin-top: 37%;
     margin-left: 90%;
 
 
@@ -208,7 +211,7 @@ footer {
 #Goomba6 {
     position: absolute;
     width: 155px;
-    margin-top: 36%;
+    margin-top: 37%;
     margin-left: 57%;
 
 
@@ -261,50 +264,60 @@ footer {
 }
 
 #caixaMensagens {
-  
-    margin-top: 15%;
+
+    margin-top: 6%;
 
 }
 
 #nome {
-    width:1501px; 
+    width:1514px; 
     height: 50px;
-    margin-left: 190px;
+    margin-left: 192px;
     border: solid black;
     position: absolute;
     margin-top: 48px;
      background: #333;
     font-size: 20px;
     padding-left: 20px;
-    color: rgb(150, 150, 150);
+    color: rgb(214, 212, 212);
+
+text-align: center;
 }
 
+
+input::placeholder {
+    position: relative;
+  text-align: center;
+
+  }
+
 #mensagem {
-    width: 500px;
-    height: 46px;
-    border-radius: 50px;
-    border: 0;
+    width: 1524px;
+    height: 50px;
+    margin-left: 200px;
     position: absolute;
-    margin-left: 35%;
     background: #333;
     font-size: 20px;
-    padding-left: 20px;
-    margin-top: 35.9%;
-    color: rgb(150, 150, 150);
+    margin-top: 33%;
+    border: solid black;
+    color: rgb(189, 189, 189);
+    text-align: center;
 }
 
 #button {
-    margin-left: 64%;
-width: 60px;
-height: 60px;
+    margin-left: 87%;
+width: 63px;
+height: 63px;
     cursor: pointer;
     position: absolute;
     transition: 0.5s ease;
-    margin-top: 34.5%;
-    border-radius: 50px;
+    margin-top: 32%;
     background: #a9a9a9;
 }
 
+#button:hover{
+background: rgb(177, 131, 131);
+}
 
 #aviaoEnviar{
     width: 30px;
@@ -364,10 +377,44 @@ margin-left: 46%;
 
 
 .enviado{
-    margin-left: 55%;
+    margin-left: 60%;
+    margin-top: 10px;
 }
 
 .recebido{
+    margin-left: 30%;
+    margin-top: 10px;
+}
 
-    margin-left: 35%;
+#cugo{
+position: absolute;
+width: 110px;
+margin-top: 35%;
+margin-left: 93%;
+}
+
+#marioPole{
+    position: absolute;
+    width: 430px;
+    margin-left: -2%;
+    margin-top: -10px;
+
+}
+
+#paratroopa{
+    position: absolute;
+    width: 200px;
+    margin-left: 83%;
+    
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#blocoVoltar{
+    position: absolute;
+    width: 140px;
+    margin-top: -3%;
+    margin-left: -45%;
 }

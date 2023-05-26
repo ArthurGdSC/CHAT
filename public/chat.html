@@ -13,7 +13,7 @@
 <body>
 
     <header>
-        <a href="paginaInicial.html">
+        <a href="">
             <img src="img/question-block.png" alt="" id="blocoVoltar">
             </a>
     </header>
@@ -23,31 +23,30 @@
 
 
 
-        <img src="img/titulo.png" alt="" id="titulo">
+        <div id="caixaMensagens">
+            <div id="conversa">
+                <img src="img/pattern-logos-characters-bd1f26898b2027c98ce8ba17c084f523.png" alt="" id="espelho3">
+                <img src="img/pattern-logos-characters-bd1f26898b2027c98ce8ba17c084f523.png" alt="" id="espelho4">
+                <ul id="mensagens"></ul>
+            </div>
+<img src="img/cugo.webp" alt="" id="cugo">
 
-        <img src="img/pipe.png" alt="" id="pipe1">
-        <img src="img/pipe.png" alt="" id="pipe2">
+            <form>
 
+                <input id="nome" placeholder="Seu Nome de Usuario">
+           
+                <br>
+                <div id="enviarMensagem">
+                    <input id="mensagem" placeholder="Sua Mensagem :">
+                    <br>
+                    <button id="button"> <img src="img/enviarAviao.png" alt="" id="aviaoEnviar"> </button>
+                </div>
+                <img src="img/mario-pole2.png" alt="" id="marioPole">
+                <img src="img/Paratroopa.png" alt="" id="paratroopa">
+            </form>
+        </div>
 
-        <img src="img/marioPulandoGumba.png" alt="" id="marioPulandoGumba">
-
-        <img src="img/Goomba.webp" alt="" id="Goomba">
-        <img src="img/pngwing.com (7).png" alt="" id="Goomba2">
-        <img src="img/pngwing.com (7).png" alt="" id="Goomba3">
-        <img src="img/pngwing.com (7).png" alt="" id="Goomba4">
-        <img src="img/pngwing.com (7).png" alt="" id="Goomba5">
-        <img src="img/pngwing.com (7).png" alt="" id="Goomba6">
-        <img src="img/Paratroopa.png" alt="" id="tartarugaVerelhaVoando">
-        <a href="chat.html">
-            <img src="img/entrar.png" alt="" id="entrar">
-        </a>
-
-        <img src="img/tartarugaVoando.png" alt="" id="tartarugaVoando">
-
-        <img src="img/pngwing.com (8).png" alt="" id="plantaFogo">
-
-    </section>
-
+    <!-- Importar o Script do Socket -->
     <footer>
 
     </footer>
@@ -117,7 +116,7 @@
 
             //Definir o texto da mensagem
 
-            lista.textContent = `${dados.nome}: ${dados.mensagem} `;
+            lista.textContent = `${dados.nome}: ${dados.mensagem}`;
 
             //Adiciona o elemento na lista de mensagens
             mensagens.appendChild(lista)
